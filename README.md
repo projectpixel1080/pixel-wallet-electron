@@ -1,4 +1,4 @@
-## WalletShell - GUI wallet for Pixel.
+## GUI wallet for Pixel.
 
 
 
