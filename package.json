@@ -2,7 +2,7 @@
   "name": "Pixel",
   "productName": "Pixel",
   "description": "Pixel GUI Wallet",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "homepage": "https://pixel.rocks",
   "repository": "https://pixel.rocks",
   "main": "main.js",
@@ -37,7 +37,7 @@
     "request-promise-native": "^1.0.7"
   },
   "build": {
-    "appId": "lol.turtlecoin.walletshell",
+    "appId": "pixel.rocks",
     "copyright": "Copyright (c) 2019 Rixombea, Macroshock, TurtleCoin Developers, Pixel Developers",
     "directories": {
       "output": "dist",
