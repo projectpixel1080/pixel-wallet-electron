@@ -8,7 +8,7 @@ config.appId = 'pixel.rocks';
 config.appGitRepo = 'https://github.com/projectpixel1080/Project-Pixel';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 18082;
+config.daemonDefaultRpcPort = 43111;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'pxl';
@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'pxl';
 config.walletServiceBinaryFilename = 'pixel-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v0.13.0";
+config.walletServiceBinaryVersion = "V1.1.0";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -31,7 +31,7 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '69.164.199.105:43111';
+config.remoteNodeDefaultHost = '185.105.4.162:43111';
 
 
 // remote node list update url, set to null if you don't have one
@@ -45,10 +45,10 @@ config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '198.58.117.216:43111',
-  '142.54.189.234:18082',
-  '185.105.4.162:18082',
-  '192.243.101.144:18082',
+  '185.105.4.127:43111',
+  '192.243.109.22:43111',
+  '162.208.10.175:43111',
+  '192.243.108.166:43111',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
@@ -84,7 +84,7 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 config.addressBookSampleEntries = [
   {
     name: 'Pixel Donation',
-    address: 'PixELSKKnxr7FrgqybAhMJL2oVU2JQTzwXiJFWU564ErVZ5qV6Ncg5CZ2hACNcRWHWjCUpeGtjq7hZBVBeoV2GCVea6RBJQB6dG',
+    address: 'PixELT66wQ6QRSyiXbqs5vNAnVRv8GD8m36puU99wCfRL1BGRwGYxxr4unzGPDNRp8bfoLwCjbjyNTwqCzyMrwimCahXWvv8W4N',
     paymentId: '',
   }
 ];
