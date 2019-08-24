@@ -1,10 +1,10 @@
 ## WalletShell - GUI wallet for Pixel.
 
-![WalletShell Screens](https://i.imgur.com/41Ujq0S.gif "WalletShell Screens")
+
 
 ### Features:
 
-This wallet contains the basic functions required to manage your TurtleCoin assets:
+This wallet contains the basic functions required to manage your Pixel assets:
 
 * Wallet creation:
   * Create new wallet.
@@ -28,12 +28,11 @@ This wallet contains the basic functions required to manage your TurtleCoin asse
   * Allow to optionally create password protected address book.
 * Misc:
   * Option to use system tray (on closing/minimizing wallet)
-  * Provides list of public nodes, fetch/updated daily from [turtlecoin-nodes-json](https://github.com/turtlecoin/turtlecoin-nodes-json) repo.
   * Allow to add custom node address.
   * Theme: Dark & Light Mode
   * [Keyboard shortcuts](docs/shortcut.md)
 
-### Download &amp; Run WalletShell
+### Download &amp; Run Pixel Wallet
 
 #### Windows:
 1. Download the latest installer here: https://github.com/turtlecoin/turtle-wallet-electron/releases/latest
