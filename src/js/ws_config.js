@@ -28,7 +28,7 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
+config.blockExplorerUrl = 'https://explorer.pixel.rocks/?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = '185.105.4.162:43111';
@@ -46,8 +46,7 @@ config.remoteNodeListFiltered = true;
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
   '185.105.4.127:43111',
-  '192.243.109.22:43111',
-  '162.208.10.175:43111',
+  '142.54.191.58:43111',
   '192.243.108.166:43111',
 ];
 config.remoteNodeCacheSupported = false;
