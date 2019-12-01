@@ -2,7 +2,7 @@
   "name": "Pixel",
   "productName": "Pixel",
   "description": "Pixel GUI Wallet",
-  "version": "v1.1.0",
+  "version": "v2.0.0",
   "homepage": "https://pixel.rocks",
   "repository": "https://pixel.rocks",
   "main": "main.js",
